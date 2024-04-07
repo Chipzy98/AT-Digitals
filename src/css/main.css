@@ -24,6 +24,30 @@ body {
     position: relative;
     z-index: 1;
   }
+
+  /* card1 */
+
+.gradient-card {
+  background: linear-gradient(to right, #78BF91, #4DCA79 ,#1CBDDD);
+}
+
+  /* card1 end  */
+  .gradient-card {
+    background: linear-gradient(to right, #1de7a0, #13bd82);
+}
+
+@media (min-width: 768px) {
+    .mainpic {
+        position: relative;
+    }
+    .gradient-card {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+
   
   /* You can adjust the overlay color and opacity as needed */
   .overlay::before {
