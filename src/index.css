@@ -1,0 +1,120 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.site-footer {
+  background-color: #6B3CC9;
+  color: white; /* Set text color to white for better readability */
+  padding: 50px 0; /* Add padding to the footer */
+}
+
+.site-footer .divider {
+  width: 50%;
+  height: 2px;
+  background-color: #fff; /* Set divider color to white */
+  margin: 20px auto;
+}
+
+.site-footer h3 {
+  color: #fff; /* Set heading text color to white */
+}
+
+.site-footer p {
+  color: #fff; /* Set paragraph text color to white */
+}
+
+.site-footer .widget {
+  margin-bottom: 30px; /* Add space between widgets */
+}
+
+.site-footer .social li {
+  display: inline-block;
+  margin-right: 10px; /* Add space between social icons */
+}
+
+.site-footer .social li a {
+  color: #fff; /* Set social icon color to white */
+  font-size: 20px; /* Adjust social icon size */
+}
+
+.site-footer .links li {
+  margin-bottom: 10px; /* Add space between service links */
+}
+
+.site-footer .links li a {
+  color: #fff; /* Set service link color to white */
+}
+
+/* Adjust link styles */
+.site-footer .links li a:hover {
+  text-decoration: none;
+}
+
+.site-footer .footer {
+  margin-top: 30px; /* Add space between footer and content */
+}

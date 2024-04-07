@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    font-size: 16px;
+    color: #666;
+  }
+
+  
+
+.untree_co-hero {
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .overlay {
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* You can adjust the overlay color and opacity as needed */
+  .overlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the color and opacity here */
+    z-index: -1;
+  }
+  
+
+  .site-footer {
+    background-color: #6B3CC9;
+    color: white; /* Set text color to white for better readability */
+    padding: 50px 0; /* Add padding to the footer */
+  }
+  
+  .site-footer .divider {
+    width: 50%;
+    height: 2px;
+    background-color: #fff; /* Set divider color to white */
+    margin: 20px auto;
+  }
+  
+  .site-footer {
+    background-color: #6B3CC9;
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.site-footer hr {
+    border-top-color: #ffffff;
+    opacity: 0.5
+}
+
+.site-footer hr.small {
+    margin: 20px 0
+}
+
+.site-footer h6 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px
+}
+
+.site-footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.footer-links {
+    padding-left: 0;
+    list-style: none
+}
+
+.footer-links li {
+    display: block
+}
+
+.footer-links a {
+    color: #737373
+}
+
+.footer-links a:active, .footer-links a:focus, .footer-links a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.footer-copyright {
+    text-align: center;
+    color: #fff;
+    background-color: #222;
+    padding: 20px 0;
+}
+
+
+  .col-lg-6 > div:nth-child(1) > img:nth-child(1) {
+    margin-top: -35px;
+  }
+  
+  .site-footer .widget ul.links li a:hover,
+.site-footer .widget ul.float-left.links li a:hover {
+  color: #ffc107; /* Change link color on hover */
+  text-decoration: none; /* Remove underline on hover */
+}
+
+.untree_co-section {
+    padding: 100px 0;
+    position: relative;
+  }
+  
+  @media (max-width: 991.98px) {
+    .untree_co-section {
+      padding: 50px 0;
+    }
+  }
+  
+  .untree_co-section .heading h3 {
+    font-size: 35px;
+    color: #000000;
+  }
+  
+  @media (max-width: 991.98px) {
+    .untree_co-section .heading {
+      font-size: 20px;
+    }
+  }
+  
+  .untree_co-section .heading strong {
+    font-weight: 700;
+  }
+
+  
+.custom-accordion .accordion-item {
+    margin-bottom: 0px;
+    position: relative;
+    border-radius: 0px;
+    overflow: hidden;
+  }
+  
+  .custom-accordion .accordion-item .btn-link {
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    text-decoration: none;
+    text-align: left;
+    color: #000000;
+    background: transparent;
+    border: none;
+    padding-left: 40px;
+    border-radius: 0;
+    position: relative;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    text-transform: none !important;
+    letter-spacing: normal !important;
+    font-weight: normal !important;
+    font-family: "Inter", sans-serif;
+    font-size: 16px !important;
+  }
+  
+  .custom-accordion .accordion-item .btn-link:before {
+    font-family: 'icomoon';
+    content: "\f067";
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 15px;
+  }
+  
+  .custom-accordion .accordion-item .btn-link[aria-expanded="true"] {
+    font-weight: 700;
+    color: #ffffff !important;
+    background: #136ad5;
+  }
+  
+  .custom-accordion .accordion-item .btn-link[aria-expanded="true"]:before {
+    font-family: 'icomoon';
+    content: "\f068";
+    position: absolute;
+    color: #ffffff;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 15px;
+  }
+  
+  .custom-accordion .accordion-item.active {
+    z-index: 2;
+  }
+  
+  .custom-accordion .accordion-item.active .btn-link {
+    color: #000000;
+    -webkit-box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-accordion .accordion-item .accordion-body {
+    padding: 20px 20px 20px 20px;
+  }
+
+  .btn {
+    float: left;
+}
